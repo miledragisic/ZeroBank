@@ -1,0 +1,562 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1734345,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1168261,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user logs in with valid credentials using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_logs_in_with_valid_credentials_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T21:36:27.937Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1821736,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Savings account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity.;savings-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 40584,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "the user clicks on \"Savings\" link on the Account Summary page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the Account Activity page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Account drop down should have Savings selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1418864,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219355,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user logs in with valid credentials using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_logs_in_with_valid_credentials_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T21:36:28.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 45906,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Brokerage account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity.;brokerage-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 34775,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "the user clicks on \"Brokerage\" link on the Account Summary page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "the Account Activity page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Account drop down should have Brokerage selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4482356,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 846998,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user logs in with valid credentials using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_logs_in_with_valid_credentials_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T21:36:28.175Z",
+        "before": [
+          {
+            "result": {
+              "duration": 47265,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Checking account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity.;checking-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 38025,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "the user clicks on \"Checking\" link on the Account Summary page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "the Account Activity page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "Account drop down should have Checking selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1548611,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1772949,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user logs in with valid credentials using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_logs_in_with_valid_credentials_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T21:36:28.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 41222,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Credit Card account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity.;credit-card-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 25360,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "the user clicks on \"Credit Card\" link on the Account Summary page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26,
+            "name": "the Account Activity page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27,
+            "name": "Account drop down should have Credit Card selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1147038,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDefs.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770467,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user logs in with valid credentials using \"username\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 57
+                }
+              ],
+              "location": "LoginStepDefs.user_logs_in_with_valid_credentials_using_and(String,String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-02T21:36:28.225Z",
+        "before": [
+          {
+            "result": {
+              "duration": 44858,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Loan account redirect",
+        "description": "",
+        "id": "navigating-to-specific-accounts-in-accounts-activity.;loan-account-redirect",
+        "after": [
+          {
+            "result": {
+              "duration": 23485,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "the user clicks on \"Loan\" link on the Account Summary page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "the Account Activity page should be displayed",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "Account drop down should have Loan selected",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Navigating to specific accounts in Accounts Activity.",
+    "description": "",
+    "id": "navigating-to-specific-accounts-in-accounts-activity.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountActivityNavigation.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
